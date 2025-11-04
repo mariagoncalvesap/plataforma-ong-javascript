@@ -1,4 +1,4 @@
-// js/router.js
+
 function carregarPagina(pagina) {
   const conteudo = document.getElementById("conteudo");
 
@@ -16,5 +16,5 @@ function carregarPagina(pagina) {
     });
 }
 
-// Torna a função acessível globalmente
+
 window.carregarPagina = carregarPagina;
