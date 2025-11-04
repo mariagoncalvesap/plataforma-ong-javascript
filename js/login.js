@@ -26,7 +26,7 @@ export function inicializarLogin() {
     if (userFound) {
       localStorage.setItem("usuarioLogado", JSON.stringify(userFound));
       alert(`Bem-vindo(a), ${userType}!`);
-      window.location.hash = "#home"; // volta pra página inicial no SPA
+      window.location.hash = "#home"; 
     } else {
       errorMsg.textContent = "⚠️ E-mail, senha ou tipo de usuário incorreto!";
     }
