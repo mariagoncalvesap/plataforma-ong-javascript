@@ -37,8 +37,8 @@ nav ul {
   padding: 0;
   margin: 10px 0 0 0;
   display: flex;
-  justify-content: center; /* centraliza os itens */
-  gap: 30px; /* espaço entre os links */
+  justify-content: center; 
+  gap: 30px; 
 }
 
 nav ul li {
