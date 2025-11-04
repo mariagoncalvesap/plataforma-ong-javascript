@@ -44,11 +44,11 @@
     right: 20px;
   }
 
-  /* Menu escondido inicialmente */
+
   nav ul.menu {
     display: none;
     flex-direction: column;
-    background-color: var(--cor-primaria); /* 👈 mantém o fundo escuro */
+    background-color: var(--cor-primaria); 
     position: absolute;
     top: 60px;
     right: 0;
